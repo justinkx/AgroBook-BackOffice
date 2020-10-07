@@ -1,0 +1,41 @@
+{
+  "name": "agro-book",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/justinkx/AgroBook-BackOffice.git"
+  },
+  "dependencies": {
+    "strapi": "3.1.7",
+    "strapi-admin": "3.1.7",
+    "strapi-connector-mongoose": "3.1.7",
+    "strapi-plugin-content-manager": "3.1.7",
+    "strapi-plugin-content-type-builder": "3.1.7",
+    "strapi-plugin-email": "3.1.7",
+    "strapi-plugin-upload": "3.1.7",
+    "strapi-plugin-users-permissions": "3.1.7",
+    "strapi-provider-upload-cloudinary": "^3.2.0",
+    "strapi-provider-upload-cloudinary-folderoptions": "^0.0.3",
+    "strapi-utils": "3.1.7"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "d13e9f76-a9bc-4ea6-8758-1eda1254cbab"
+  },
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
