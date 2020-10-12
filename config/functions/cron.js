@@ -1,4 +1,5 @@
 'use strict';
+const fetch = require("node-fetch");
 
 /**
  * Cron config that gives you an opportunity
@@ -18,4 +19,7 @@ module.exports = {
   // '0 1 * * 1': () => {
   //
   // }
+  '29 * * * *': () => {
+    fetch("https://agrobook-backoffice.herokuapp.com/dashboard/");
+  }
 };

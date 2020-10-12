@@ -15,6 +15,7 @@
     "url": "https://github.com/justinkx/AgroBook-BackOffice.git"
   },
   "dependencies": {
+    "node-fetch": "^2.6.1",
     "strapi": "3.1.7",
     "strapi-admin": "3.1.7",
     "strapi-connector-mongoose": "3.1.7",
