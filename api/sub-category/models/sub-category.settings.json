@@ -13,10 +13,6 @@
       "type": "string",
       "required": true
     },
-    "description": {
-      "type": "text",
-      "required": true
-    },
     "image": {
       "model": "file",
       "via": "related",
@@ -30,6 +26,10 @@
     },
     "category": {
       "model": "category"
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
     }
   }
 }
