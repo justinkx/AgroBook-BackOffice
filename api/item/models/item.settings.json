@@ -10,10 +10,12 @@
   },
   "attributes": {
     "name": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "details": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     },
     "images": {
       "collection": "file",
@@ -28,6 +30,36 @@
     },
     "sub_category": {
       "model": "sub-category"
+    },
+    "avg_height": {
+      "type": "string"
+    },
+    "scientific_name": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "gestation_period": {
+      "type": "string"
+    },
+    "life_span": {
+      "type": "string"
+    },
+    "avg_weight": {
+      "type": "richtext"
+    },
+    "breeds_types": {
+      "type": "richtext",
+      "required": true
+    },
+    "farm_methods": {
+      "type": "richtext"
+    },
+    "fertilizer_feed": {
+      "type": "richtext"
+    },
+    "miscellaneous": {
+      "type": "richtext"
     }
   }
 }
