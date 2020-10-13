@@ -30,6 +30,36 @@
     "description": {
       "type": "richtext",
       "required": true
+    },
+    "scientific_name": {
+      "type": "string",
+      "required": true
+    },
+    "life_span": {
+      "type": "richtext"
+    },
+    "breed_types": {
+      "type": "richtext"
+    },
+    "farm_methods": {
+      "type": "richtext",
+      "required": false
+    },
+    "gestation_period": {
+      "type": "richtext"
+    },
+    "fertilizer_feed": {
+      "type": "richtext",
+      "required": true
+    },
+    "avg_height": {
+      "type": "richtext"
+    },
+    "avg_weight": {
+      "type": "richtext"
+    },
+    "miscellaneous": {
+      "type": "richtext"
     }
   }
 }
