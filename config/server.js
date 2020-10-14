@@ -7,4 +7,7 @@ module.exports = ({ env }) => ({
     },
     url: '/dashboard'
   },
+  cron: {
+    enabled: true
+  }
 });
