@@ -36,29 +36,13 @@
     },
     "scientific_name": {
       "type": "string",
-      "required": true,
+      "required": false,
       "unique": false
-    },
-    "gestation_period": {
-      "type": "string"
     },
     "life_span": {
       "type": "string"
     },
     "avg_weight": {
-      "type": "richtext"
-    },
-    "breeds_types": {
-      "type": "richtext",
-      "required": true
-    },
-    "farm_methods": {
-      "type": "richtext"
-    },
-    "fertilizer_feed": {
-      "type": "richtext"
-    },
-    "miscellaneous": {
       "type": "richtext"
     }
   }

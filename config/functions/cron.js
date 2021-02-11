@@ -19,7 +19,7 @@ module.exports = {
   // '0 1 * * 1': () => {
   //
   // }
-  '29 * * * *': () => {
-    fetch("https://agrobook-backoffice.herokuapp.com/dashboard/");
+  '10 * * * * *': async () => {
+    await fetch("https://agrobook-backoffice.herokuapp.com/dashboard/");
   }
 };
